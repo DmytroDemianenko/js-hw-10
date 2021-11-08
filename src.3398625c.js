@@ -11,4 +11,4 @@ module.exports=[{id:"XWaQXcbk0",name:"Картофель, запеченный �
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("../src/styles.css");var e=o(require("./partials/menu.hbs")),t=o(require("./partials/menu.json"));function o(e){return e&&e.__esModule?e:{default:e}}const s={LIGHT:"light-theme",DARK:"dark-theme"},c={menuList:document.querySelector(".js-menu"),toggleButton:document.querySelector(".theme-switch__toggle"),body:document.body},n=localStorage.getItem("Theme");function r(e){e.target.checked?u(s.DARK,s.LIGHT):u(s.LIGHT,s.DARK)}function u(e,t){c.body.classList.add(e),c.body.classList.remove(t),localStorage.setItem("Theme",e)}c.menuList.insertAdjacentHTML("beforeend",(0,e.default)(t.default)),c.body.classList.add(n||s.LIGHT),c.toggleButton.checked=n===s.DARK,c.toggleButton.addEventListener("click",r);
 },{"../src/styles.css":"Tnu0","./partials/menu.hbs":"OTRY","./partials/menu.json":"wPJB"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.3398625c.js.map
+//# sourceMappingURL=/DmytroDemianenko/js-hw-10/src.3398625c.js.map
