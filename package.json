@@ -6,7 +6,7 @@
   "homepage": "https://github.com/DmytroDemianenko/js-hw-10",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /DmytroDemianenko/js-hw-10/"
+    "build": "parcel build src/*.html --public-url /js-hw-10/"
   },
   "repository": {
     "type": "git",
